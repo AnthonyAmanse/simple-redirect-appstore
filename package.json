@@ -1,0 +1,24 @@
+{
+  "name": "simple-redirect-appstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyAmanse/simple-redirect-appstore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyAmanse/simple-redirect-appstore/issues"
+  },
+  "homepage": "https://github.com/AnthonyAmanse/simple-redirect-appstore#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mobile-detect": "^1.4.3"
+  }
+}

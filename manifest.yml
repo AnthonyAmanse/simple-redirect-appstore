@@ -1,0 +1,11 @@
+applications:
+- name: simple-redirect-appstore
+  instances: 1
+  memory: 1G
+  # routes:
+  # - route: store-links
+  path: .
+  command: node app.js
+  env:
+    IOS_URL: https://itunes.apple.com/us/app/kubecoin/id1369165644?mt=8
+    ANDROID_URL: https://play.google.com/store/apps/details?id=com.amanse.anthony.fitcoinandroid&hl=en_US
